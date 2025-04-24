@@ -1,0 +1,100 @@
+body {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+
+/* NAVBAR DO PAINEL */
+.navbarPainel #navbarNav a {
+  background-color: white;
+  color: #000;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.navbarPainel .navbar-brand {
+  margin-right: 40px !important;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    gap: 20px;
+  }
+}
+
+/* CARDS DO KANBAN */
+.taskQtd {
+  font-size: 0.8rem;
+  position: absolute;
+  top: 5px;
+  right: 17px;
+  padding: 5px 8px;
+  line-height: normal;
+}
+.dateIcon small {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.dateIcon {
+  margin-top: 5px;
+}
+.filterIconTasks {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.KanbanContent {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  min-height: calc(100vh - 100px) !important;
+  display: flex;
+}
+div.colunaKanbanScroll {
+  /* min-height: 600px;
+  max-height: 600px; */
+  height: calc(100vh - 200px);
+  max-height: calc(100vh - 200px);
+  overflow-y: visible;
+  /* overflow-x: hidden; */
+  padding-right: 3px;
+}
+/* Customizar a scrollbar no Chrome, Edge, Safari (Webkit) */
+.colunaKanbanScroll::-webkit-scrollbar {
+  width: 8px; /* largura da barra (scroll vertical) */
+  height: 8px; /* altura da barra (scroll horizontal) */
+}
+.colunaKanbanScroll::-webkit-scrollbar-thumb {
+  background-color: #888; /* cor do 'thumb' (parte que o usuário arrasta) */
+  border-radius: 10px; /* borda arredondada do thumb */
+}
+.colunaKanbanScroll::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* cor ao passar o mouse */
+}
+.colunaKanbanScroll::-webkit-scrollbar-track {
+  background: #f1f1f1; /* fundo da área de rolagem */
+  border-radius: 10px; /* opcional, para ficar arredondado também */
+}
+.colunaKanbanScroll::-webkit-scrollbar-corner {
+  background: transparent; /* canto inferior direito em scroll duplo */
+}
+/* .BoxColunanKanban {
+  min-height: calc(100% - 100px) !important;
+} */
+.row {
+  -webkit-overflow-scrolling: touch; /* scroll suave no iPhone */
+  scroll-snap-type: x mandatory; /* scroll travadinho (opcional) */
+}
+/* CARDS RELATÓRIOS */
+.cardsReport .card-title span {
+  font-size: 3rem;
+}
+.cardReportIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 5px 8px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

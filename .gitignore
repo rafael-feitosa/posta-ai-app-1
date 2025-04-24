@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diretórios de dependências
+node_modules/
+node_modules
+
+# Files
+firebase.js
+
+# Diretórios de build
+dist/
+dist-ssr/
+
+# Arquivos locais
+*.local
+
+# Cache do Vite
+.vite/
+
+# Variáveis de ambiente
+.env
+.env.*.local
+
+# Diretórios de editores
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
