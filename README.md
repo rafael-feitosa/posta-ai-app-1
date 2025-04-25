@@ -18,6 +18,19 @@ Rotas Protegidas: Acesso restrito a determinadas páginas apenas para usuários 
 
 🖼️ Capturas de Tela
 
+KANBAN
+
+![tela kanban posta ai](https://github.com/user-attachments/assets/f207de22-fb2a-426e-973f-493bfa84ea84)
+
+DASHBOARD
+
+![tela dashboard app](https://github.com/user-attachments/assets/28d28cf8-f7c4-4cf1-a3a0-acd5ff9eb1e3)
+
+TAREFAS
+
+![tela tarefas app posta ai](https://github.com/user-attachments/assets/ea412636-9655-4e7f-a69d-2a80e79e01d4)
+
+
 ## 🙋‍♂️ Contato
 
 Para dúvidas, sugestões ou contribuições:​
