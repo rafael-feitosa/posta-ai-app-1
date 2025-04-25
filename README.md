@@ -1,4 +1,4 @@
-## 📝 Task Manager App 1.0
+## 📝 posta.ao App 1.0
 
 Um gerenciador de tarefas básico desenvolvido com React, Vite e integrado ao Firebase.
 
